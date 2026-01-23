@@ -1,13 +1,14 @@
 # Dokumentasi Docker Command
 
 ## Melihat Semua Image
-
+```bash
 docker image ls
-
+```
+## Menarik Image Docker
 ```bash
 docker image pull name:tag
 ```
-
+## Menghapus Image Docker
 ```bash
 docker image rm name:tag
 ```
