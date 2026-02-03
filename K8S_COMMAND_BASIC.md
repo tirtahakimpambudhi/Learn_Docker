@@ -24,7 +24,7 @@ kubectl config view
   - deployment -> deploy
 
 ```
-kubectl describer type_resource name_resource
+kubectl describe type_resource name_resource
 ```
 
 ## Untuk Melihat Sebuah List Resource
