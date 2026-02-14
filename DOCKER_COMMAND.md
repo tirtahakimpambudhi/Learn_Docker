@@ -1,21 +1,21 @@
 # Dokumentasi Docker Command
 
 ## Melihat Semua Image
-
+```bash
 docker image ls
-
+```
+## Menarik Image Docker
 ```bash
 docker image pull name:tag
 ```
-
+## Menghapus Image Docker
 ```bash
 docker image rm name:tag
 ```
 
 ## Melihat Semua Container hanya yang di jalankan
-
+```bash
 docker container ls
-
 ```
 
 ## Melihat Semua Container yang Di-run maupun Tidak
@@ -24,7 +24,7 @@ docker container ls -a
 ```
 
 ## Membuat Container
-
+```bash
 docker container create --name name image:tag
 
 ```
